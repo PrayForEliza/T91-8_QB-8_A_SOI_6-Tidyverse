@@ -9,7 +9,7 @@ df[] <- lapply(df,as.character)
 colnames(df) <- df[1,]
 df = df[-1, ]
 View(df)
-
+glimpse(df)
 #Data Vizualization----
 
 #ggplot(df,aes(x="Weight%Total"))+geom_histogram(binwidth=5)
