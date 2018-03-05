@@ -10,9 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Required Packages
 The following packages are necessary for this project: 
-
-RCurl
-yaml
+```{r Required packages}
+packageDescription("RCurl")
+packageDescription("yaml")
+```
 
 ## R Markdown
 
