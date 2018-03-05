@@ -3,7 +3,6 @@ title: "T91-8_QB-8_A_SOI_6 Tidyverse"
 author: "Trishelle Copeland-Johnson"
 date: "February 24, 2018"
 output: html_document
----
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
