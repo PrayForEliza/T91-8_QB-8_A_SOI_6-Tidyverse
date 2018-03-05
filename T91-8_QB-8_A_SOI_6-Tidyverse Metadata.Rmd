@@ -4,12 +4,6 @@ author: "Trishelle Copeland-Johnson"
 date: "February 24, 2018"
 output: html_document
 
----
-```{r Load pacakge, message=FALSE}
-library(RCurl)
-library(yaml)
-```
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
