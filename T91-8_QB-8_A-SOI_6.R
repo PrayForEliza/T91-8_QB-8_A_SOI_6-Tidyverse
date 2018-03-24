@@ -15,5 +15,5 @@ df = df[-1, ]
 #Data Vizualization----
 as_data_frame(df)
 df$`Weight%Total`=as.integer(as.character(df$`Weight%Total`))
-ggplot(df,aes(x=df$'Weight%Total'))+geom_histogram(binwidth = 5)
-
+wttots=ggplot(df,aes(x=df$'Weight%Total', fill=factor(..x..)))+geom_histogram(binwidth = 2)
+plot(wttots)
